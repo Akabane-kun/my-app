@@ -15,7 +15,8 @@ const app = new Clarifai.App({
  apiKey: '701440986a294867b11fa1457cb41fa1'
 });
 
-const url = "http://localhost:3001";
+//const url = "http://localhost:3001";
+const url = "https://neuron-face-detect.herokuapp.com";
 
 class App extends Component{
   constructor(){
